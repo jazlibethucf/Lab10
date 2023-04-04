@@ -1,4 +1,23 @@
+/*for statement*/
 /* Adding a comment test 2 */
+/*for statement*/
+.n1 {
+  color: red;
+}
+
+.n2 {
+  color: blue;
+}
+
+.n3 {
+  color: green;
+}
+
+.n4 {
+  color: yellow;
+}
+
+/*for statement*/
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
@@ -12,7 +31,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 15px;
-  color: #e9fefc;
 }
 
 .n2 {
@@ -22,7 +40,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 16px;
-  color: #f9fde7;
 }
 
 .n3 {
@@ -32,7 +49,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 17px;
-  color: #e5fcf6;
 }
 
 .n4 {
@@ -42,7 +58,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 18px;
-  color: #f3fbe3;
 }
 
 .n5 {
@@ -52,7 +67,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 19px;
-  color: #e1faf0;
 }
 
 .n6 {
@@ -62,7 +76,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 20px;
-  color: #edf9df;
 }
 
 .n7 {
@@ -72,7 +85,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 21px;
-  color: #ddf8ea;
 }
 
 .n8 {
@@ -82,7 +94,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 22px;
-  color: #e7f7db;
 }
 
 .n9 {
@@ -92,7 +103,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 23px;
-  color: #d9f6e4;
 }
 
 .n10 {
@@ -102,7 +112,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 24px;
-  color: #e1f5d7;
 }
 
 .n11 {
@@ -112,7 +121,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 25px;
-  color: #d5f4de;
 }
 
 .n12 {
@@ -122,7 +130,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 26px;
-  color: #dbf3d3;
 }
 
 .n13 {
@@ -132,7 +139,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 27px;
-  color: #d1f2d8;
 }
 
 .n14 {
@@ -142,7 +148,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 28px;
-  color: #d5f1cf;
 }
 
 .n15 {
@@ -152,7 +157,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 29px;
-  color: #cdf0d2;
 }
 
 .n16 {
@@ -162,7 +166,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 30px;
-  color: #cfefcb;
 }
 
 .n17 {
@@ -172,7 +175,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 31px;
-  color: #c9eecc;
 }
 
 .n18 {
@@ -182,7 +184,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 32px;
-  color: #c9edc7;
 }
 
 .n19 {
@@ -192,7 +193,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 33px;
-  color: #c5ecc6;
 }
 
 .n20 {
@@ -202,7 +202,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 34px;
-  color: #c3ebc3;
 }
 
 .n21 {
@@ -212,7 +211,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 35px;
-  color: #c1eac0;
 }
 
 .n22 {
@@ -222,7 +220,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 36px;
-  color: #bde9bf;
 }
 
 .n23 {
@@ -232,7 +229,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 37px;
-  color: #bde8ba;
 }
 
 .n24 {
@@ -242,7 +238,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 38px;
-  color: #b7e7bb;
 }
 
 .n25 {
@@ -252,7 +247,6 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 39px;
-  color: #b9e6b4;
 }
 
 .n26 {
@@ -262,5 +256,4 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 40px;
-  color: #b1e5b7;
 }/*# sourceMappingURL=main.css.map */
