@@ -36,14 +36,14 @@
 /* Adding a comment test 2 */
 //Adding comment test 3
 
-/*for statement*/
+/*for statement: i am trying to make all the grid-items top to bottom work colors, cycle through the four colors in the variable $color-lab*/
 @for $i2 from 1 through length($color-lab) {
   .n#{$i2} {
   color: nth($color-lab, $i2);
   }
 }
 
-/*if statement*/
+/*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
 @if $color-lab == red {
   font-size: 100pt;
 }
