@@ -30,13 +30,7 @@
       }
     }
   }
-}
-
-// Adding comment test 1
-/* Adding a comment test 2 */
-//Adding comment test 3
-
-
+  
   /*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
   @for $i2 from 1 through $grid-count {
     .n#{$i2} {
@@ -48,3 +42,10 @@
   @if $color-lab == red {
     font-size: 100pt;
   }
+}
+
+// Adding comment test 1
+/* Adding a comment test 2 */
+//Adding comment test 3
+
+
