@@ -42,4 +42,8 @@
   color: nth($color-lab, $i2);
   }
 }
-hello
+
+/*if statement*/
+@if $color-lab == red {
+  font-size: 100pt;
+}
