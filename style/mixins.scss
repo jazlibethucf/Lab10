@@ -39,7 +39,7 @@
   }
 
   /*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
-  @if $color-lab == red {
+  @if $grid-item == red {
     font-size: 100pt;
   }
 }

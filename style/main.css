@@ -241,9 +241,21 @@
   font-size: 40px;
 }
 
-/*for statement: i am trying to make all the grid-items top to bottom work colors, cycle through the four colors in the variable $color-lab*/
+/*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
 .n1 {
-  color: true;
+  color: red;
+}
+
+.n2 {
+  color: blue;
+}
+
+.n3 {
+  color: green;
+}
+
+.n4 {
+  color: yellow;
 }
 
 /*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*//*# sourceMappingURL=main.css.map */
