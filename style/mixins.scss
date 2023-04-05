@@ -32,7 +32,7 @@
   }
   
   /*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
-  @for $i2 from 1 through $grid-count {
+  @for $i2 from 1 through length($color-lab){
     .n#{$i2} {
     color: nth($color-lab, $i2);
     }
