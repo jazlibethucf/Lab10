@@ -1,2 +1,112 @@
 /*for statement*/
-/* Adding a comment test 2 *//*# sourceMappingURL=mixins.css.map */
+/*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
+.n1 {
+  color: #fe0000;
+}
+
+.n2 {
+  color: #fe0000;
+}
+
+.n3 {
+  color: #fd0000;
+}
+
+.n4 {
+  color: #fd0000;
+}
+
+.n5 {
+  color: #fc0000;
+}
+
+.n6 {
+  color: #fc0000;
+}
+
+.n7 {
+  color: #fb0000;
+}
+
+.n8 {
+  color: #fb0000;
+}
+
+.n9 {
+  color: #fa0000;
+}
+
+.n10 {
+  color: #fa0000;
+}
+
+.n11 {
+  color: #f90000;
+}
+
+.n12 {
+  color: #f90000;
+}
+
+.n13 {
+  color: #f80000;
+}
+
+.n14 {
+  color: #f80000;
+}
+
+.n15 {
+  color: #f70000;
+}
+
+.n16 {
+  color: #f70000;
+}
+
+.n17 {
+  color: #f60000;
+}
+
+.n18 {
+  color: #f60000;
+}
+
+.n19 {
+  color: #f50000;
+}
+
+.n20 {
+  color: #f50000;
+}
+
+.n21 {
+  color: #f40000;
+}
+
+.n22 {
+  color: #f40000;
+}
+
+.n23 {
+  color: #f30000;
+}
+
+.n24 {
+  color: #f30000;
+}
+
+.n25 {
+  color: #f20000;
+}
+
+.n26 {
+  color: #f20000;
+}
+
+/*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
+/* @if $grid-item == red {
+    font-size: 100pt;
+  }
+
+*//*# sourceMappingURL=mixins.css.map */

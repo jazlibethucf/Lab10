@@ -9,7 +9,6 @@
   @for $i1 from 1 through $grid-count{
     @if $i1 % 2 == 0{
       .n#{$i1} {
-
         grid-row: round($i1/2)/ span 1;
         grid-column: 3;
         background-color: 	rgb(($i1*3), $i1, (($i1+10)*2));
@@ -30,22 +29,18 @@
       }
     }
   }
+}
   
   /*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
-  @for $i2 from 1 through length($color-lab){
-    .n#{$i2} {
-    color: nth($color-lab, $i2);
+  @for $i from 1 through 26 {
+    .n#{$i} {
+      color:darken($color-lab, $i * 0.10%);
     }
   }
 
   /*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
-  @if $grid-item == red {
+ /* @if $grid-item == red {
     font-size: 100pt;
   }
-}
 
-// Adding comment test 1
-/* Adding a comment test 2 */
-//Adding comment test 3
-
-
+*/
