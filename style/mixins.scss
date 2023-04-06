@@ -38,9 +38,9 @@
     }
   }
 
-  /*if statement: I'm trying to make the grid-items more transparent gradually if they are the color red*/
-  @if ($color-lab != red) {
-    .n#{$i} {
-    color:opacify($color-lab, $i * 0.8%);
+  /*if statement: if my variable color-lab is equal to red, then the font of the grid will change to cambria*/
+  @if ($color-lab ==red) {
+    .grid {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
   }

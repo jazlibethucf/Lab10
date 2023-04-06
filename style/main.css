@@ -104,7 +104,11 @@
   color: #ff6a6a;
 }
 
-/*if statement: I'm trying to make the grid-items more transparent gradually if they are the color red*/
+/*if statement: if my variable color-lab is equal to red, then the background of the grid-items will be white*/
+.grid {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 /*for statement I added this color variable to become lighter from top to bottom*/
 .grid {
   display: grid;
