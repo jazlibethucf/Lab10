@@ -40,7 +40,7 @@
 
   /*if statement: I'm trying to make the grid-items more transparent gradually*/
   @if $color-lab == red {
-    .n#{$i1} {
-      color: opacify($color: red, $amount: 50%);
+    .n#{$i}{
+      color:opacify($color-lab, $i * 0.8%);
     }
   } 

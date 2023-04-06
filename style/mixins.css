@@ -104,7 +104,7 @@
   color: #ff6a6a;
 }
 
-/*if statement: I'm trying to make the grid-items more transparent gradually
-@if $grid-item == red {
-  color: opacify($color: red, $amount: 50%)
-} *//*# sourceMappingURL=mixins.css.map */
+/*if statement: I'm trying to make the grid-items more transparent gradually*/
+.n {
+  color: red;
+}/*# sourceMappingURL=mixins.css.map */
