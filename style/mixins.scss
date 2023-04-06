@@ -31,16 +31,16 @@
   }
 }
   
-  /*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
+  /*for statement: from n1 to n26, I want the color to gradually become lighter using the variable $color-lab*/
   @for $i from 1 through 26 {
     .n#{$i} {
-      color:darken($color-lab, $i * 0.10%);
+      color:lighten($color-lab, $i * 0.80%);
     }
   }
 
-  /*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
- /* @if $grid-item == red {
-    font-size: 100pt;
-  }
-
-*/
+  /*if statement: I'm trying to make the grid-items more transparent gradually*/
+  @if $color-lab == red {
+    .n#{$i1} {
+      color: opacify($color: red, $amount: 50%);
+    }
+  } 

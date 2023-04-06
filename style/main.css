@@ -1,116 +1,114 @@
-/*for statement*/
-/*for statement: i am trying to make the colors of the words in all of the grid-items cycle through the four colors in the variable $color-lab*/
+/*for statement I added this color variable to become lighter from top to bottom*/
+/*for statement: from n1 to n26, I want the color to gradually become lighter using the variable $color-lab*/
 .n1 {
-  color: #fe0000;
+  color: #ff0404;
 }
 
 .n2 {
-  color: #fe0000;
+  color: #ff0808;
 }
 
 .n3 {
-  color: #fd0000;
+  color: #ff0c0c;
 }
 
 .n4 {
-  color: #fd0000;
+  color: #ff1010;
 }
 
 .n5 {
-  color: #fc0000;
+  color: #ff1414;
 }
 
 .n6 {
-  color: #fc0000;
+  color: #ff1818;
 }
 
 .n7 {
-  color: #fb0000;
+  color: #ff1d1d;
 }
 
 .n8 {
-  color: #fb0000;
+  color: #ff2121;
 }
 
 .n9 {
-  color: #fa0000;
+  color: #ff2525;
 }
 
 .n10 {
-  color: #fa0000;
+  color: #ff2929;
 }
 
 .n11 {
-  color: #f90000;
+  color: #ff2d2d;
 }
 
 .n12 {
-  color: #f90000;
+  color: #ff3131;
 }
 
 .n13 {
-  color: #f80000;
+  color: #ff3535;
 }
 
 .n14 {
-  color: #f80000;
+  color: #ff3939;
 }
 
 .n15 {
-  color: #f70000;
+  color: #ff3d3d;
 }
 
 .n16 {
-  color: #f70000;
+  color: #ff4141;
 }
 
 .n17 {
-  color: #f60000;
+  color: #ff4545;
 }
 
 .n18 {
-  color: #f60000;
+  color: #ff4949;
 }
 
 .n19 {
-  color: #f50000;
+  color: #ff4e4e;
 }
 
 .n20 {
-  color: #f50000;
+  color: #ff5252;
 }
 
 .n21 {
-  color: #f40000;
+  color: #ff5656;
 }
 
 .n22 {
-  color: #f40000;
+  color: #ff5a5a;
 }
 
 .n23 {
-  color: #f30000;
+  color: #ff5e5e;
 }
 
 .n24 {
-  color: #f30000;
+  color: #ff6262;
 }
 
 .n25 {
-  color: #f20000;
+  color: #ff6666;
 }
 
 .n26 {
-  color: #f20000;
+  color: #ff6a6a;
 }
 
-/*if statement: I'm trying to make any grid-item that is red (true) be the font size 100, if the grid-item is not the color red, it will be normal font-size.*/
-/* @if $grid-item == red {
-    font-size: 100pt;
-  }
-
-*/
-/*for statement*/
+/*if statement: I'm trying to make the grid-items more transparent gradually
+@if $grid-item == red {
+  color: opacify($color: red, $amount: 50%)
+} */
+/*for statement I added this color variable to become lighter from top to bottom*/
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
