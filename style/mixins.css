@@ -104,7 +104,4 @@
   color: #ff6a6a;
 }
 
-/*if statement: I'm trying to make the grid-items more transparent gradually*/
-.n {
-  color: red;
-}/*# sourceMappingURL=mixins.css.map */
+/*if statement: I'm trying to make the grid-items more transparent gradually if they are the color red*//*# sourceMappingURL=mixins.css.map */

@@ -104,11 +104,7 @@
   color: #ff6a6a;
 }
 
-/*if statement: I'm trying to make the grid-items more transparent gradually*/
-.n {
-  color: red;
-}
-
+/*if statement: I'm trying to make the grid-items more transparent gradually if they are the color red*/
 /*for statement I added this color variable to become lighter from top to bottom*/
 .grid {
   display: grid;
